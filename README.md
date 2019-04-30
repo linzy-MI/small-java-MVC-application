@@ -8,8 +8,9 @@ Model:实际的业务逻辑和状态放在模型中。例如：购物车的内�
 Controller:从请求获得用户输入，并明确这些输入对模型有什么影响，告诉模型自行更新，并且要让视图能得到新的模型状态。
 View:负责表示。它从控制器得到模型的状态(not directly),另外，视图还要获得用户输入，交给控制器
 
-deploy your web application in Tomcat,put file in folder like below:
-![image](https://github.com/Linzhiyu1993/images/(LDWGFC1G46VSDNE7016WZC.png)
+deploy your web application in Tomcat(the folder is),the way to put file in Tomcat folder can be found in images folder,
+then input URL"http://localhost:8081/fruitSelect/fruitColorSelect.html" in browser click submit can test this application
+
 
 
 
